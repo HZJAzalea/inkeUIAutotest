@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[微信周期扣款成功！]]>
+    </line>
+    <line>
+      <![CDATA[支付宝周期扣款成功！]]>
+    </line>
+    <line>
+      <![CDATA[支付宝购买虚拟币成功！]]>
+    </line>
+    <line>
+      <![CDATA[支付宝普通购买和支付接口成功！]]>
+    </line>
+  </reporter-output>
+  <suite name="nvwa" duration-ms="381287" started-at="2021-05-18T15:41:46 CST" finished-at="2021-05-18T15:48:07 CST">
+    <groups>
+    </groups>
+    <test name="金融中台接口UI自动化" duration-ms="381287" started-at="2021-05-18T15:41:46 CST" finished-at="2021-05-18T15:48:07 CST">
+      <class name="cn.nvwa.finance.testcase.GmuPaymentTest">
+        <test-method status="PASS" signature="beferTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="beferTest" is-config="true" duration-ms="16630" started-at="2021-05-18T15:41:46 CST" finished-at="2021-05-18T15:42:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beferTest -->
+        <test-method status="PASS" signature="testcase_01_weixinVip()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="testcase_01_weixinVip" duration-ms="109894" started-at="2021-05-18T15:42:02 CST" finished-at="2021-05-18T15:43:52 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[微信周期扣款成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase_01_weixinVip -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="afterTest" is-config="true" duration-ms="1977" started-at="2021-05-18T15:43:52 CST" finished-at="2021-05-18T15:43:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beferTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="beferTest" is-config="true" duration-ms="14146" started-at="2021-05-18T15:43:54 CST" finished-at="2021-05-18T15:44:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beferTest -->
+        <test-method status="PASS" signature="testcase_02_alipaySvip()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="testcase_02_alipaySvip" duration-ms="89630" started-at="2021-05-18T15:44:08 CST" finished-at="2021-05-18T15:45:38 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[支付宝周期扣款成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase_02_alipaySvip -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="afterTest" is-config="true" duration-ms="1715" started-at="2021-05-18T15:45:38 CST" finished-at="2021-05-18T15:45:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beferTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="beferTest" is-config="true" duration-ms="13736" started-at="2021-05-18T15:45:40 CST" finished-at="2021-05-18T15:45:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beferTest -->
+        <test-method status="PASS" signature="testcase_03_virtualCurrencyAlipay()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="testcase_03_virtualCurrencyAlipay" duration-ms="79749" started-at="2021-05-18T15:45:53 CST" finished-at="2021-05-18T15:47:13 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[支付宝购买虚拟币成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase_03_virtualCurrencyAlipay -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.nvwa.finance.testcase.GmuPaymentTest@43738a82]" name="afterTest" is-config="true" duration-ms="1622" started-at="2021-05-18T15:47:13 CST" finished-at="2021-05-18T15:47:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.nvwa.finance.testcase.GmuPaymentTest -->
+      <class name="cn.nvwa.finance.testcase.ChatrightPaymentTest">
+        <test-method status="PASS" signature="beferTest()[pri:0, instance:cn.nvwa.finance.testcase.ChatrightPaymentTest@c81cdd1]" name="beferTest" is-config="true" duration-ms="12356" started-at="2021-05-18T15:47:15 CST" finished-at="2021-05-18T15:47:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beferTest -->
+        <test-method status="PASS" signature="testcase_01_chatrightPreOrderAlipay()[pri:0, instance:cn.nvwa.finance.testcase.ChatrightPaymentTest@c81cdd1]" name="testcase_01_chatrightPreOrderAlipay" duration-ms="38080" started-at="2021-05-18T15:47:27 CST" finished-at="2021-05-18T15:48:05 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[支付宝普通购买和支付接口成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase_01_chatrightPreOrderAlipay -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:cn.nvwa.finance.testcase.ChatrightPaymentTest@c81cdd1]" name="afterTest" is-config="true" duration-ms="1704" started-at="2021-05-18T15:48:05 CST" finished-at="2021-05-18T15:48:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- cn.nvwa.finance.testcase.ChatrightPaymentTest -->
+    </test> <!-- 金融中台接口UI自动化 -->
+  </suite> <!-- nvwa -->
+</testng-results>

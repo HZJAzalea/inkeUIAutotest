@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="金融中台接口UI自动化"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="279.273">
+  <properties />
+  
+  
+            <testcase name="testcase_02_alipaySvip" time="89.630" classname="cn.nvwa.finance.testcase.GmuPaymentTest" />
+                <testcase name="testcase_01_weixinVip" time="109.894" classname="cn.nvwa.finance.testcase.GmuPaymentTest" />
+                <testcase name="testcase_03_virtualCurrencyAlipay" time="79.749" classname="cn.nvwa.finance.testcase.GmuPaymentTest" />
+      
+</testsuite>

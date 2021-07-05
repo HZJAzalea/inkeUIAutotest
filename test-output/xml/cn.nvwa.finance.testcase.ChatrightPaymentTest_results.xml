@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="金融中台接口UI自动化"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="38.080">
+  <properties />
+  
+  
+            <testcase name="testcase_01_chatrightPreOrderAlipay" time="38.080" classname="cn.nvwa.finance.testcase.ChatrightPaymentTest" />
+      
+</testsuite>

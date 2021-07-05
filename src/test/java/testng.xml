@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nvwa" parallel="false">
+
+    <parameter name="" value=""/>
+    <!-- Test -->
+    <test name="金融中台接口UI自动化">
+        <classes>
+            <class name="cn.nvwa.finance.testcase.GmuPaymentTest"/>
+            <class name="cn.nvwa.finance.testcase.ChatrightPaymentTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <!-- reportng报告替代testng默认报告 -->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+</suite>
